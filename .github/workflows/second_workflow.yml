@@ -13,9 +13,9 @@ runs-on: ubuntu-latest
 steps: # define steps that will run on the runner.
 - name: welcome message # give a name to the first step
 run: |
-echo "welcome to the first ever step, job, workflow written by you!"
-echo " This is a test of pipe symbol to add multiple run lines"
+   echo "welcome to the first ever step, job, workflow written by you!"
+   echo " This is a test of pipe symbol to add multiple run lines"
 - name: leave message # name for another step
-run:
-echo "my work is done here!"
-echo "i am leaving this workflow"
+run: |
+  echo "my work is done here!"
+  echo "i am leaving this workflow"
